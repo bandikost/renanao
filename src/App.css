@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+.App {
+  text-align: center;
+  max-width: 1200px;
+}
+
+
+.products-grid__item {
+  margin-top: 30px;
+}
+
+.products-grid__item a{
+ text-decoration: none;
+}
+
+
+.products__point {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 10px;
+}
+
+.carousel-texter_open {
+  position: relative;
+  z-index: 3;
+  top: 120px;
+  text-align: left;
+  padding: 0 20px;
+  color: black;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.pay__products a{
+  text-decoration: none;
+
+}
+
+.fixed__text {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.Loading {
+  margin: 0 auto 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  font-size: 25px;
+}
+
+.Pay-position {
+  margin: 0 auto 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  border: 1px solid black;
+  width: 205px;
+  height: 150px;
+  border-radius: 8px;
+}

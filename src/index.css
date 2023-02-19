@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: "Fira Sans", sans-serif;
+ 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+  font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
+}
+
+
+html,
+.App,
+#root,
+.auth-wrapper {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+ }
+
+.container {
+  margin: 50px auto 0px auto;
+  width: 1200px;
+  height: auto;
+}
+
+p {
+  margin: 0;
+}
+
+
+li { 
+  list-style: none;
+}
+
+
+.App-wrapper {
+  margin: 0 auto 0;
+  justify-content: center;
+  display: flex;
+  background: url(./main//image/intro/1610164174_22-p-fon-multyashnii-kosmos-41.jpg) center no-repeat;
+  height: 100vh;
+}
+
+.App-content {
+  display: flex;
+  position: relative;
+  margin: 0 auto 0;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.App-button {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: white;
+  padding: 5px 10px;
+  text-align: center;
+  margin: 10px auto 0 auto;
+  position: relative;
+  top: 30px;
+}
+
+.App-button a{
+  margin: 20px 0;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+

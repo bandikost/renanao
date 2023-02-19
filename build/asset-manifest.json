@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/renanao/static/css/main.08a32c45.css",
+    "main.js": "/renanao/static/js/main.33dcd63e.js",
+    "static/js/787.cb7b9243.chunk.js": "/renanao/static/js/787.cb7b9243.chunk.js",
+    "static/media/OG Buda.mp4": "/renanao/static/media/OG Buda.526a5721185a3fbba89e.mp4",
+    "static/media/MAYOT.mp4": "/renanao/static/media/MAYOT.baec4ce4cc08ab0b74b9.mp4",
+    "static/media/SODA.mp4": "/renanao/static/media/SODA.dd9ee1b8e8f6252d590f.mp4",
+    "static/media/1610164174_22-p-fon-multyashnii-kosmos-41.jpg": "/renanao/static/media/1610164174_22-p-fon-multyashnii-kosmos-41.b4c61318e25513285600.jpg",
+    "static/media/Lunaneo.png": "/renanao/static/media/Lunaneo.084f586d0266df627c44.png",
+    "static/media/flag_en_big.jpg": "/renanao/static/media/flag_en_big.74642121020e5fa5a497.jpg",
+    "static/media/father.png": "/renanao/static/media/father.60ada1ed14142a109788.png",
+    "static/media/rena.png": "/renanao/static/media/rena.84e8e7a96e1c143472ec.png",
+    "static/media/Dayko.png": "/renanao/static/media/Dayko.1ca6bbce1ad3a3ca0546.png",
+    "static/media/flag_ispanija_new.jpg": "/renanao/static/media/flag_ispanija_new.e44d28253cfec77c8702.jpg",
+    "static/media/Danun.png": "/renanao/static/media/Danun.950f957257339389fa79.png",
+    "static/media/jupiter.png": "/renanao/static/media/jupiter.22234398996fde595771.png",
+    "static/media/saturn.png": "/renanao/static/media/saturn.9aac45852c8845bc53ec.png",
+    "static/media/neptune.png": "/renanao/static/media/neptune.a743377e7fb37bbefb46.png",
+    "static/media/uran.png": "/renanao/static/media/uran.f1793f0f2a7b51fd86be.png",
+    "static/media/vk-hover.svg": "/renanao/static/media/vk-hover.7190633522164ffae8db.svg",
+    "static/media/vk.svg": "/renanao/static/media/vk.90f1d27a8ec771b384c0.svg",
+    "static/media/viber-hover.svg": "/renanao/static/media/viber-hover.3900946070490143cf5c.svg",
+    "static/media/viber.svg": "/renanao/static/media/viber.e56bf3cc049e50e04d61.svg",
+    "static/media/watch-section-desktop.svg": "/renanao/static/media/watch-section-desktop.eae7afacd2172f5dcb6b.svg",
+    "index.html": "/renanao/index.html",
+    "static/media/telegram-hover.svg": "/renanao/static/media/telegram-hover.6b6ec0c0a9c64adc7ef5.svg",
+    "static/media/telegram.svg": "/renanao/static/media/telegram.8ed85fa26a4a6f1a18c3.svg",
+    "static/media/youtube.svg": "/renanao/static/media/youtube.c6eb5044c172406011f2.svg",
+    "static/media/youtube-hover.svg": "/renanao/static/media/youtube-hover.5b2a961916a07e39e4f9.svg",
+    "static/media/downWaveDesktop.svg": "/renanao/static/media/downWaveDesktop.70fe7023d2d2fa68eec7.svg",
+    "static/media/upperWaveDesktop.svg": "/renanao/static/media/upperWaveDesktop.0fab677d702f05ce20cb.svg",
+    "main.08a32c45.css.map": "/renanao/static/css/main.08a32c45.css.map",
+    "main.33dcd63e.js.map": "/renanao/static/js/main.33dcd63e.js.map",
+    "787.cb7b9243.chunk.js.map": "/renanao/static/js/787.cb7b9243.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08a32c45.css",
+    "static/js/main.33dcd63e.js"
+  ]
+}
