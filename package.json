@@ -1,0 +1,56 @@
+{
+  "name": "renanao-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@a2seven/yoo-checkout": "^1.1.4",
+    "@stripe/react-stripe-js": "^2.1.0",
+    "assert": "^2.0.0",
+    "async_hooks": "^1.0.0",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.2.3",
+    "crypto-browserify": "^3.12.0",
+    "express": "^4.18.2",
+    "firebase": "^9.21.0",
+    "firebase-functions": "^4.4.0",
+    "i18next": "^22.4.15",
+    "jquery": "^3.6.4",
+    "php-to-js": "^0.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.2.2",
+    "react-native-yandex-payment": "^1.0.5",
+    "react-router": "^6.11.0",
+    "react-router-dom": "^6.11.0",
+    "react-scripts": "^5.0.1",
+    "stream-browserify": "^3.0.0",
+    "web-vitals": "^3.3.1",
+    "yandex-checkout": "^1.0.13"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/register": "^7.21.0"
+  }
+}

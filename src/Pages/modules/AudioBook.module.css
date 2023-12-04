@@ -1,0 +1,373 @@
+body {
+    overflow-y: hidden;
+}
+
+.content {
+    width: 100vw;
+    margin: 0;
+    height: 100vh;
+    
+}
+.container {
+    margin: 0 auto 0;
+    width: 100%;
+    height: 970px;
+    padding: 0 15px;
+    background: url(./images/1610164174_22-p-fon-multyashnii-kosmos-41.jpg) center no-repeat;
+}
+
+
+.bookContainer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    position: relative;
+    
+}
+
+
+
+.bookMain {
+ position: relative;
+ top: 200px;
+}
+
+.bookText {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+a {
+   text-decoration: none; 
+}
+
+
+
+.bookText:hover {
+    text-decoration: underline;
+}
+
+.bookTextVis {
+    color: white;
+    opacity: 0.9;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin-top: 1px;
+}
+
+
+.slideContainer {
+    overflow: hidden;
+    padding: 0;
+    margin-top: 40px;
+    margin-left: 30px;
+    max-width: 1200px;
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: center;
+}
+  
+.slideTrack {
+    display: flex;
+    transition: .8s ;
+}
+
+
+.slideItem {
+    position: relative;
+    margin: -25px 15px 0 15px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    border-radius: 10px;
+    z-index: 3;
+    background-color: #000;
+    border: 1px solid black;
+    width: 350px;
+
+}
+
+.slideItem video{
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.slideItemOpen {
+    position: relative;
+    margin: 0px 15px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    border-radius: 10px;
+    z-index: 3;
+    width: 350px;
+}
+.slideItemOpen video {
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+
+.slideItem p{
+    color: white;
+}
+
+
+.Episodes {
+    display: flex;
+    margin: 0 50px;
+}
+
+.Episodes video{
+    display: flex;
+    margin: 0 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.slideTitle {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    top: 0px;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    left: -290px;
+}
+
+.EpisodeDis {
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+   
+    z-index: 100;
+}
+
+.productsPoint {
+    text-decoration: none;
+    position: relative;
+    top: 140px;
+    left: -230px;
+}
+
+.payProducts {
+    position: relative;
+    font-size: 19px;
+    letter-spacing: -0.2px;
+    padding: 0 10px;
+    top: -5px;
+    z-index: 3;
+    text-decoration: none;
+}
+
+
+
+.slideWatch {
+    height: 200px;
+    cursor: pointer;
+}
+
+.slideDis {
+    position: relative;
+    width: 100%;
+    top: 25px;
+    left: 26px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+.slideName {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    top: 190px;
+    position: absolute;
+    z-index: 3;
+   
+    left: -350px;
+}
+
+.slideDisOpen {
+    position: relative;
+    width: 100%;
+    top: 50px;
+    left: 26px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+.slideNameOpen  {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    margin-top: 2px;
+}
+
+
+
+
+.showMore {
+    margin-top: 50px;
+    background: none;
+    border: 1px solid black;
+    max-width: 1080px;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.showMore:hover {
+    border: 2.4px solid black; 
+}
+
+
+.gridContainer {
+	width: 100%;
+	display: grid;
+	grid-gap: var(--gutter);
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.productsGrid {
+    padding: 0;
+    margin-top: 100px;
+	display: flex;
+
+}
+
+
+
+
+.productsGridItem {
+    padding-bottom: 60px;
+}
+
+.btnCenter {
+	grid-column: 2 / 4 span;
+	text-align: center;
+}
+
+.productsGridItem:nth-child(n + 4) {
+	display: none;
+}
+
+.productsGridItem.is-visible {
+	display: block;
+}
+
+
+.svg{
+    display: flex;
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+
+.videobutton {
+    top: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 0;
+    position: relative;
+    max-width: 1195px; 
+    
+}
+
+.videobutton button{
+    background: none;
+    border: none;  
+}
+
+
+
+span {
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+   
+}
+
+
+
+@media(max-width: 1024px) {
+    .containerVideos {
+        width: 675px;
+        position: relative;
+        left: 70px;
+    }
+  }
+
+  @media(max-width: 768px) {
+    .videos {
+        margin: 0 00px;
+        position: relative;
+        left: 70px;
+      }
+
+      .aaad {
+        margin: 0 80px;
+      }
+
+      .videos video {
+        width: 320px;
+        margin: 0;
+      }
+
+      .EpisodeContainerButtons {
+        display: none;
+      }
+      .slider-size {
+        margin-left: 0;
+      }
+  }
+
+  @media(max-width: 425px) {
+    .videos {
+        margin: 0 00px;
+        position: relative;
+        left: -90px;
+      }
+
+      .aaad {
+        margin: 0 110px;
+      }
+
+      .videos video {
+        width: 280px;
+        margin: 0;
+      }
+
+      .EpisodeContainerButtons {
+        display: none;
+      }
+  }

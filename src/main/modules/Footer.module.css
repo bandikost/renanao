@@ -1,0 +1,324 @@
+
+.contacts {
+    background: url(./svg/upperWaveDesktop.svg) repeat-x top center, url(./svg/downWaveDesktop.svg) repeat-x bottom center, white repeat top center/contain;
+    width: 100%;
+    height: 500px;
+    bottom: 0;
+}
+
+
+.contactsInner {
+    margin-top: -20px;
+}
+
+.socContainerPos {
+    display: flex;
+    margin: 0 10px;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+
+.contactsNumber {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.contactsAddress1 {
+    margin: 0px 20px;
+}
+
+.soc {
+    margin: 0 11px;
+    height: 20px;
+}
+
+.socContainer {
+     position: relative;
+     top: 100px;
+}
+
+.socImg {
+
+    width: 10px;
+}
+
+
+.imgPosition {
+
+    margin-top: -11px;
+    width: 500px;
+}
+
+
+.socApp {
+    display: flex;
+    margin-top: 150px;
+}
+
+
+
+.fixedImgwhatsapp {
+    background-image: url(../image/fixed/whatsapp.svg);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0.05);
+    -webkit-border-style: solid;
+    -webkit-border-width: 0px;
+    -webkit-border-color: rgba(0, 0, 0, 0.05);
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fixedImgwhatsapp:hover {
+    transition: all .4s ease;
+    background-image: url(../image/fixed/whatsapp-hover.svg);
+}
+
+.fixedImgYo {
+    background-image: url(../image/fixed/youtube.svg);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0.05);
+    -webkit-border-style: solid;
+    -webkit-border-width: 0px;
+    -webkit-border-color: rgba(0, 0, 0, 0.05);
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fixedImgYo:hover {
+    transition: all .4s ease;
+    background-image: url(../image/fixed/youtube-hover.svg);
+}
+
+
+.fixedImgVk {
+    background-image: url(../image/fixed/vk.svg);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0.05);
+    -webkit-border-style: solid;
+    -webkit-border-width: 0px;
+    -webkit-border-color: rgba(0, 0, 0, 0.05);
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fixedImgVk:hover {
+    transition: all .4s ease;
+    background-image: url(../image/fixed/vk-hover.svg);
+}
+
+
+.fixedImgTg {
+    background-image: url(../image/fixed/telegram.svg);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0.05);
+    -webkit-border-style: solid;
+    -webkit-border-width: 0px;
+    -webkit-border-color: rgba(0, 0, 0, 0.05);
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fixedImgTg:hover {
+    transition: all .4s ease;
+    background-image: url(../image/fixed/telegram-hover.svg);
+}
+.fixedImgInstagram{
+    background-image: url(../image/fixed/instagram.svg);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-border-style: solid;
+    -webkit-border-width: 0px;
+    -webkit-border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.copyright {
+    position: absolute;
+    top: 70%;
+    margin-left: 10px;
+}
+
+.fixedImgInstagram:hover {
+    transition: all .4s ease;
+    background-image: url(../image/fixed/instagram-hover.svg);
+}
+
+
+.fixedImgFacebook {
+    background-image: url(../image/fixed/facebook.svg);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-border-style: solid;
+    -webkit-border-width: 0px;
+    -webkit-border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fixedImgFacebook:hover {
+   
+    transition: all .4s ease;
+    background-image: url(../image/fixed/facebook-hover.svg);
+}
+
+@media(max-width: 1350px) {
+    .imgPosition {
+        position: absolute;
+        right: 0;
+        margin-top: 42px;
+        width: 430px;
+    }
+    .copyright {
+        position: absolute;
+        top: 120%;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .imgPosition {
+
+        margin-top: 65px;
+        width: 400px;
+    }
+    .socContainerPos {
+        display: flex;
+        
+    }
+    .socApp {
+        position: absolute;
+        z-index: 30;
+    }
+    .copyright {
+        top: 180%; 
+    }
+}
+
+
+@media(max-width: 1024px) {
+
+}
+
+
+@media (max-width: 768px) {
+    .imgPosition {
+
+        margin-top: 118px;
+        width: 330px;
+    }
+}
+
+@media (max-width: 650px) {
+    .socContainerPos {
+        justify-content: center;
+    }
+    .socApp {
+        margin-top: 60px;
+    }
+
+    .contactsNumber {
+        display: flex;
+    justify-content: center;
+    font-size: 19px;
+    flex-direction: column;
+    align-items: center;
+    }
+    .imgPosition {
+        width: 231px;
+        margin-top: 100px;
+    }
+    .contactsAddress1 {
+        margin: 20px 20px;
+    }
+}
+
+@media(max-width: 425px) {
+    .copyright {
+        top: 200%;
+        margin-left: 10px; 
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .socContainerPos {
+        margin: 0 5px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+    
+}

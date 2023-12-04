@@ -1,0 +1,35 @@
+.header {
+    background-color: #6d7ae0;
+   
+    width: 1300px;
+    margin: 0 auto 0;
+    height: 64px;
+    z-index: 1000;
+    
+    border-radius: 0 0 10px 10px;
+}
+
+.navigate {
+    display: flex;
+    position: relative;
+    top: 15px;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+
+.li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+.li a:hover {
+    color: black;
+    transition: ease .2s all;
+    text-decoration: underline;
+}

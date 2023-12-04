@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,300&display=swap');
+.contacts__suptitle {
+    max-width: 190px;
+    margin-left: -43px;
+}
+
+
+.planetss {
+    width: 100%;
+    height: 1000px;
+    background:  url(./images/1610164174_22-p-fon-multyashnii-kosmos-41.jpg) center no-repeat;
+}
+
+.planet__name {
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    opacity: 0.9;
+    font-family: 'Sofia Sans';
+}
+
+
+.planet__container {
+    max-width: 700px;
+    padding: 0 25px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: 30px;
+    justify-content: space-between;
+}
+
+.planet__pos {
+    display: block;
+}
+
+
+.planet_away { 
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+
+.planet__inner {
+    position: relative;
+    top: 200px;
+    margin: 40px 0;
+}
+
+
+
+
+
+
+.planet__text {
+    font-family: 'Sofia Sans';
+    font-size: 22px;
+    color: white;
+    position: relative;
+    top: 15px;
+    opacity: 0.9;
+    left: 20px;
+    display: flex;
+}
+
+.planet__text img {
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+.planet__text-title {
+    position: relative;
+    margin-top: 20px;
+    margin-left: -60px;
+    max-width: 310px;
+    font-family: 'Sofia Sans';
+    
+}
+
+
+
+
+.ui-message-box__wrapper {
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 2002;
+	background-color: rgba(39,39,39,0.7);
+    transition: all 1s ease;
+}
+
+.ui-message-box {
+	display: block;
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 12px 14px;
+    transition: all 1s ease;
+	border-radius: 8px;
+    height: 250px;
+    width: 300px;
+	z-index: 2000;
+	transition: all 1s ease;
+	position: relative;
+    z-index: 100;
+    font-family: 'Sofia Sans';
+    font-weight: 500;
+    color: black;
+}
+
+
+
+.ui-message-box img {
+    width: 800px;
+    margin: 0 auto 0 ;
+    left: -270px;
+    position: relative;
+    top: 260px;
+    transition: all 1s ease;
+}
+
+.ui-message-box .button-close {
+	width: 22px;
+	height: 22px;
+    position: relative;
+    z-index: 100;
+    transition: all 1s ease;
+}
+
+.ui-message-box__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+    margin-left: 10px;
+    font-family: 'Nerko One';
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -40px;
+    position: relative;
+    z-index: 100;
+    transition: all 1s ease;
+}
+
+.ui-message-box__headerMars {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+    margin-left: 10px;
+    font-family: 'Nerko One';
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -45px;
+    position: relative;
+    z-index: 100;
+    transition: all 1s ease;
+}
+
+.ui-message-box__content {
+    margin-bottom: 16px;
+    text-align: center;
+    padding: 0 5px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 100;
+    width: 600px;
+    margin-left: -145px;
+    transition: all 1s ease;
+}
+
+.ui-message-box__contentMars {
+	margin-bottom: 16px;
+    text-align: center;
+    padding: 0 5px;
+    margin-top: -20px;
+    position: relative;
+    z-index: 100;
+    width: 500px;
+    margin-left: -100px;
+    transition: all 1s ease;
+
+}
+
+
+
+.message-box-title {
+	font-size: rem(24);
+    margin: 0 auto 0;
+    position: relative;
+    left: 40px;
+    margin-top: -100px;
+    transition: all 1s ease;
+}
+
+
+
+
+.ui-message-box__footer {
+	text-align: right;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+
+
+.button-light {
+    cursor: pointer;
+    content: '';
+    width: 160px;
+    position: relative;
+    left: 30px;
+    height: 55px;
+    position: absolute;
+    margin-left: -25px;
+    z-index: 100;
+    transition: all 1s ease;
+}
+
+
+
+.button-primary {
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 54%;
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    bottom: -145%;
+    left: 90px;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    z-index: 100;
+    transition: all 1s ease;
+}
+.button-primary::before {
+    content: '';
+    transition: all 1s ease;
+}
+.button-primary:hover {
+    background-color: #6556b2;
+    color: white;
+    transition: all .3s ease;
+}
+
+.ui-flex {
+    display: flex;
+    position: relative;
+    top: 5px;
+    transition: all 1s ease;
+}
+
+
+hr {
+    margin-top: -10px;
+}
+
+
+p {
+    margin: 0;
+    font-weight: 500;
+   
+}
+
+
+@media(max-width: 768px) {
+    .ui-message-box img {
+        width: 650px;
+        margin-left: 95px;
+        margin-top: -168px;
+        transform: rotate(270deg);
+    }
+
+    .button-primary {
+        width: 40%;
+        left: 70px;
+        bottom: -115%;
+    }
+    .ui-message-box__content {
+        margin-bottom: 5px;
+        text-align: center;
+        padding: 0 5px;
+        margin-top: -75px;
+        position: relative;
+        z-index: 100;
+        font-size: 14px;
+        width: 200px;
+        width: 255px;
+        margin-left: 12px;
+        transition: all 1s ease;
+    }
+
+    .ui-message-box__contentMars {
+        margin-bottom: 5px;
+        text-align: center;
+        padding: 0 5px;
+        margin-top: -75px;
+        position: relative;
+        z-index: 100;
+        font-size: 14px;
+        width: 200px;
+        width: 255px;
+        margin-left: 12px;
+        transition: all 1s ease;
+    }
+
+    .message-box-title {
+        font-size: 20px;
+        left: 10px;
+    margin-top: -200px;
+        color: black;
+    }
+    .planet__container {
+        
+        padding: 0 15px 0px 0px;
+        }
+}
+
+@media(max-width: 425px) {
+    .planet__text {
+        font-size: 15px;
+    }
+    .planet__container {
+        
+    padding: 0 15px 0px 0px;
+    }
+}

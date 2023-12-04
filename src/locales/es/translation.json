@@ -1,0 +1,114 @@
+{
+    "about": "Sobre el cuento",  
+    "video": "Videolibros",
+    "planets": "Planetas",
+    "audiobook": "Audiolibros",
+    "space": "Vocabulario cósmico",
+    "contact": "Contactos",
+    "general": "Personajes",
+    "Renanao": "Renanao",
+
+    "cardepisode": "Cards of episode",
+    "cardseries": "Cards of series",
+    "Welcome": "Welcome!",
+    "NeedAuthorization": "Necesita Autorización",
+    "BackToMain": "Back to main page",
+    "BackToAuth": "Back to authorization",
+    "Email Login:": "Your Login: ",
+    "TapPayments": "Tap for pay",
+    "aboutplanetsfromstory": "About planets from story",
+    "aboutContent" : "La monita Renanao viaja en una nave espacial por el universo. Aterriza en algunos planetas como Gliese 581 c, Ross 128 b, Luyten b y muchos más. Allí tendrá que experimentar muchas cosas nuevas y divertidas, familiarizarse con los increíbles habitantes de planetas distantes y desentrañar los secretos de mundos encantadores. Cada nuevo planeta revelará secretos desconocidos para Renanao y brindará muchos conocimientos útiles y buenos.",
+    "successfully": "Has iniciado sesión correctamente!",
+    "mercury": "Mercurio",
+    "ventus": "Venus",
+    "pluto": "Plutón",
+    "neptune": "Neptuno",
+    "jupiter": "Júpiter",
+    "saturn": "Saturno",
+    "mars": "Marte",
+    "uran": "Urano",
+    
+    "wentWrong": "Algo salió mal...",
+    "sign-in": "Entrar",
+    "NohaveAcc": "Aún no tienes una cuenta?",
+    "haveAcc": "Ya tienes una cuenta?",
+    "reg": "Registro",
+    "auth" : "Autorización",
+    "HereUserPage": "Aquí puedes ver información sobre tu cuenta",
+    "subscribe": "Subscribe",
+    "payforunlock" : "Pay for a subscription to see the next episodes",
+    "upload" : "Upload more",
+    "language": "Language",
+    "menu" : "Menu",
+    "close" : "Cerca",
+    "Setlanguage" : "Elige lengua",
+    "profile": "Perfil",
+    "user": "Acerca del usuario",
+
+    "UranText" : "Es un frío planeta cubierto de hielo. La temperatura en la superficie es de -224 grados, y los vientos a veces soplan a una velocidad de 250 metros por segundo. Definitivamente serás expulsado de este planeta. ",
+    "MarsText" : "Marte también es llamado el planeta rojo. Hay tormentas de polvo muy frecuentes. Según los científicos, Marte podría haber estado habitado alguna vez. Hay muchas ideas y proyectos para terraformar Marte, es decir, convertirlo en un planeta similar a la Tierra y habitable. Quién sabe, ¿Tal vez algún día vivamos allí? ",
+    "SaturnText" : "Otro gigante gaseoso. También tiene su propio cinturón de asteroides. Parece un hula-hula. ¡Saturno tiene 83 satélites! El más notable de ellos es Titán. Hay agua en forma líquida, aunque está compuesta por metano, que en ningún caso se debe beber.",
+    "JupiterText" : "Es el planeta más grande de nuestro sistema solar. También es llamado el gigante gaseoso. El planeta tiene un enorme cinturón de asteroides. Júpiter tiene 80 satélites naturales (lunas), algunos de los cuales son muy hermosos, como Calisto e Io.",
+    "NeptuneText" : "Otro gigante de hielo. En él la velocidad del viento es de 600 metros por segundo. Neptuno es cuatro veces el tamaño de la Tierra y es todo azul.",
+    "PlutoText" : "Es el planeta más distante y más pequeño de nuestro sistema solar. Está formado por metal y hielo. Hace frío allí. Mucho frío. Plutón está en el borde de nuestro sistema solar, y más allá se encuentra un inmenso espacio. ",
+    "VenusText" : "Es el planeta más caliente de nuestro sistema solar. También es el más brillante. Venus lleva el nombre de la diosa de la feminidad y el amor.",
+    "MercuryText" : "Es el planeta más cercano al Sol. Un año allí dura sólo 88 días. Y el día puede durar lo mismo. Hay muchos cráteres allí. Además, no hay estaciones diferentes en Mercurio. Allí es otoño todo el tiempo. ",
+
+
+    "Gliese": "Gliese 581c ",
+    "GlieseText": "Es el primer planeta en el que Rananao aterrizó en su nave espacial. Se encuentra en la constelación de Libra a una distancia de 20 años luz de la Tierra. Se suponía que el planeta podría estar deshabitado, pero en él viven seres inteligentes. Contiene agua líquida. Los habitantes llaman al planeta Oldkasi. El planeta solía tener muchos jardines verdes y lagos, pero como resultado de un desastre provocado por el hombre, el planeta quedó desierto y su población disminuyó en un 90%.",
+    "ross": "Ross 128b",
+    "rossText": "Es un planeta habitado en la constelación de Virgo se encuentra a una distancia de 11 años luz de la Tierra. La monita Renanao descubre allí habitantes muy amables. Se refieren a su planeta como Rapidón. Todos corren muy rápido. También hablan rápido. Y comen rápido. Renanao aprende de ellos a ser rápida.",
+    "Luyten": "Luyten b",
+    "LuytenText": "Este planeta está en la constelación Can Menor. Pero, sorprendentemente, allí, no todos ladran, sino que cantan. Los habitantes lo llaman Singlandia (Cantolandia)[1]. Si vuelas a este planeta, ganarás 3 veces el peso, porque él mismo pesa tres veces la Tierra. Por cierto, los habitantes no solo cantan (principalmente ópera), sino que también hablan con voz cantarina.",
+    "earth": "Tierra",
+    "earthText": "Es el plantea - casa. El único planeta de nuestro sistema solar donde viven seres razonables. En la Tierra hay condiciones confortables para la vida y muchos ríos y lagos con agua limpia. Hay mucha tierra seca (suelo) en el planeta que es apta para el cultivo de hortalizas y frutas. Especialmente plátanos.",
+    "passwordincorrect": "Las contraseñas no coinciden",
+    "emailuse": "Este correo electrónico ya está en uso. ¡Utilice un correo electrónico diferente!",
+
+    "RenanaoCharacter" : "Es una monita del planeta Tierra. Es muy habladora, divertida y curiosa. Un día decidió viajar por el universo. Desde entonces, ha visitado unos 20 planetas y ha hecho muchos amigos. ",
+    "DaddyRenanaoCharacter" : "Siempre jugaron juntos, y su padre enseñó a Renanao muchas habilidades y conocimientos útiles e interesantes, como astronomía y astrofísica. Desde que Renanao comenzó su viaje en su nave espacial, se han estado comunicando a través de video. ",
+    "DaykoCharacter" : "Un habitante de Oldcasi parecido a una jirafa. Es muy educado e inteligente. Tiene 110 años. Nació en Oldcasi y nunca planeó dejar el planeta, ni siquiera durante las guerras de bombas. ",
+    "DanunCharacter" : "Parece un slime (masa viscosa), pero piensa como cualquier otro ser vivo. Danún es de un planeta llamado Slurrindia. La superficie de todo el planeta es plana, y la única ocupación del planeta es la extracción de mercurio rojo.",
+    "LuneoCharacter" : "Parece un mamut. Tiene 700 años. Llegó a Oldcasi hace 300 años cuando una estrella en su sistema estelar se convirtió en un púlsar (una estrella fría y sin color). Luneo tiene mucho conocimiento sobre el universo y sobre la vida en otros planetas. Además, es muy amigable. ",
+
+
+    "DaddyRenanao" : "Papá Renanao",
+    "Dayko" : "Daiko",
+    "Danun" : "Danún",
+    "Luneo" : "Luneo",
+
+
+    "Astronomy " : "Astronomía",
+    "AstronomyText" : "La ciencia del universo que estudia la disposición, estructura y origen de los cuerpos y sistemas celestes.",
+
+    "Universe" : "Universo",
+    "UniverseText" : "Todo el espacio en el cielo que es visible y no visible a simple vista. El universo es multifacético e infinito.",
+
+    "Galaxy" : "Galaxia",
+    "GalaxyText" : "Un sistema de estrellas, gas y polvo estelar y planetas.",
+
+    "Exoplanet" : "Exoplaneta",
+    "ExoplanetText" : "Un planeta que se encuentra fuera del sistema solar, en el sistema de otra estrella. Hoy en día se conocen unos 5.000 exoplanetas. Algunos de ellos pueden ser habitables para los monos.",
+
+    "Ultraviolet" : "Ultravioleta ",
+    "UltravioletText" : "Radiación electromagnética, que puede ser visible o invisible. A menudo, esta radiación proviene del sol.",
+
+    "Gravity" : "Gravedad",
+    "GravityText" : "It is the force that pulls two bodies towards each other. Everything that can be touched has a gravitational attraction.",
+
+    "Speedoflight" : "Velocidad de la luz",
+    "SpeedoflightText" : "Es la velocidad de propagación de las ondas electromagnéticas y la luz solar.",
+
+    "Turbulence" : "Turbulencia",
+    "TurbulenceText" : "Corrientes de aire que suben y bajan, en las que entra la nave espacial y comienza a temblar.",
+
+    "Teleportation" : "Teletransportación",
+    "TeleportationText" : "El movimiento de un cuerpo u objeto o partículas de un lugar a otro, generalmente por medio de un salto.",
+
+    "Observatory" : "Observatorio",
+    "ObservatoryText" : "Es el edificio desde el que se observan objetos en el espacio, normalmente con grandes telescopios.",
+
+    "Constellation" : "Constelación",
+    "ConstellationText": "Es un grupo de estrellas que representan un determinado patrón o imagen. Por ejemplo, la Osa Mayor se ve exactamente como un balde con asa."
+}

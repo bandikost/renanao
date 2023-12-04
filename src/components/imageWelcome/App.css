@@ -1,0 +1,136 @@
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    visibility: hidden;
+    transition: visibility 0.5s;
+    z-index: 10000;
+    
+  }
+  
+  
+  .modal-background.active {
+    visibility: visible;
+  }
+  
+  .modal-content {
+    position: fixed;
+    top: 53%;
+    transform: translate(70%, 5%);
+  }
+
+  .modal-content img {
+    width: 30vw;
+    height: 40vh;
+    animation: father 1.5s ;
+  }
+
+  .button_position {
+    position: absolute;
+    border: none;
+    background: none;
+    font-size: 23px;
+    color: black;
+    left: 190px;
+    top: 0px;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 40px;
+    background-color: white;
+}
+
+.text {
+    position: relative;
+    right: 165px;
+    top: 103px;
+    font-size: 22px;
+    color: white;
+    width: 400px;
+    text-align: center;
+}
+
+@keyframes  father{
+    0% {
+        transform: translate(10%, -5%);
+    }
+
+    50% {
+        transform: translate(-30%, 5%);
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+@media(max-width: 1200px) {
+  .modal-content img {
+    width: 300px;
+    height: 200px;
+  }
+  .modal-content {
+    position: fixed;
+    top: 63%;
+    transform: translate(61%, 11%);
+}
+.text {
+  position: relative;
+  right: 210px;
+  top: 60px;
+  font-size: 22px;
+  color: white;
+  width: 400px;
+  text-align: center;
+}
+
+}
+
+@media(max-width: 768px) {
+  .modal-content {
+    position: fixed;
+    top: 63%;
+    transform: translate(29%, 17%);
+}
+
+.text {
+  position: relative;
+  right: 80px;
+  top: 60px;
+  font-size: 18px;
+  color: white;
+  width: 250px;
+  text-align: center;
+}
+
+}
+
+@media(max-width: 425px) {
+  .text {
+    position: relative;
+    right: -20px;
+    top: -35px;
+    font-size: 18px;
+    color: white;
+    width: 250px;
+    text-align: center;
+}
+.button_position {
+  position: absolute;
+  border: none;
+  background: none;
+  font-size: 15px;
+  color: black;
+  left: 250px;
+  top: -7px;
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 30px;
+  background-color: white;
+}
+.modal-content {
+  transform: translate(5%, 17%);
+}
+}

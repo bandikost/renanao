@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,300&display=swap');
+
+.fixed__soc {
+    position: fixed;
+    top: 180px;
+    left: 45px;
+    z-index: 1000;
+}
+
+.fixed__icons {
+    margin: 20px 0px;
+    display: block;
+}
+
+
+.fixed__touch:hover .fixed__text {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.fixed__text {
+    border-radius: 24px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    background-color: #fff;
+    color: #121212;
+    position: absolute;
+    width: 155px;
+    height: 48px;
+    margin-top: -5px;
+    z-index: -1;
+    margin-left: -5px;
+    padding-left: 52px;
+    line-height: 48px;
+    font-size: 14px;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: 100;
+    font-family: 'Sofia Sans';
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+
+
+.fixed__img-vk {
+    background-image: url(../image/fixed/vk.svg);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0.05);
+ 
+    -webkit-border-style: solid;
+    -webkit-border-width: 0px;
+    -webkit-border-color: rgba(0, 0, 0, 0.05);
+  
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fixed__img-vk:hover {
+    transition: all .4s ease;
+    background-image: url(../image/fixed/vk-hover.svg);
+}
+
+.fixed__img-tg {
+    background-image: url(../image/fixed/telegram.svg);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-border-style: solid;
+    -webkit-border-width: 0px;
+    -webkit-border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fixed__img-tg:hover {
+    transition: all .4s ease;
+    background-image: url(../image/fixed/telegram-hover.svg);
+}
+
+.fixed__img-whatsapp {
+    background-image: url(../image/fixed/whatsapp.svg);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-border-style: solid;
+    -webkit-border-width: 0px;
+    -webkit-border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fixed__img-whatsapp:hover {
+    transition: all .4s ease;
+    background-image: url(../image/fixed/whatsapp-hover.svg);
+}
+
+.fixed__img-yo {
+    background-image: url(../image/fixed/youtube.svg);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-border-style: solid;
+    -webkit-border-width: 0px;
+    -webkit-border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fixed__img-yo:hover {
+    transition: all .4s ease;
+    background-image: url(../image/fixed/youtube-hover.svg);
+}
+
+.fixed__img-inst {
+    background-image: url(../image/fixed/instagram.svg);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-border-style: solid;
+    -webkit-border-width: 0px;
+    -webkit-border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fixed__img-inst:hover {
+    transition: all .4s ease;
+    background-image: url(../image/fixed/instagram-hover.svg);
+}
+
+.fixed__img-facebook {
+    background-image: url(../image/fixed/facebook.svg);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-border-style: solid;
+    -webkit-border-width: 0px;
+    -webkit-border-color: rgba(0, 0, 0, 0.05);
+
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.fixed__img-facebook:hover {
+    transition: all .4s ease;
+    background-image: url(../image/fixed/facebook-hover.svg);
+}
+
+
+@media(max-width: 1200px) {
+    .fixed__icons {
+        display: none;
+    }
+}
