@@ -28,7 +28,7 @@ export const Manager = () => {
   }, [currentLanguage, i18n]);
 
   const hardcodedUsers = [
-    { username: 'Renanao', password: 'Renanaofliestospace' }
+    { username: 'secret guys', password: 'secret guys' }
   ];
 
   const handleLogin = () => {
